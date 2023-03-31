@@ -84,7 +84,9 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria);
+    font-family: var(--fonte-secundaria); 
+}
+
 }
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
