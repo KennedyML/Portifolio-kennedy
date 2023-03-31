@@ -93,6 +93,9 @@ body{
     width: 30%;
 }
 .rodape{
+    position: fixed;
+    bottom: 0;
+    width: 100;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
