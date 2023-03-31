@@ -108,6 +108,10 @@ body{
     font-weight: 400;
 }
 
+.conteudo {
+  margin-bottom: 50px; /* ajuste o valor conforme necessário */
+}
+
 @media (max-width: 1200px) {
     .cabecalho{
          padding: 10%;  
