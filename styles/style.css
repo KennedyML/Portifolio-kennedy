@@ -92,10 +92,11 @@ body{
 .apresentacao__imagem{
     width: 30%;
 }
+
 .rodape{
     position: fixed;
     bottom: 0;
-    width: 100;
+    width: 100%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -103,7 +104,6 @@ body{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
-  
 }
 
 @media (max-width: 1200px) {
