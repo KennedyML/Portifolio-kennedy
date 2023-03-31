@@ -85,12 +85,13 @@ body{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria); 
+    margin-bottom: 80px; /* adicione um valor de margem inferior para evitar que o rodapé cubra os links */
 }
 
-}
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
+
 .apresentacao__imagem{
     width: 30%;
 }
@@ -108,9 +109,6 @@ body{
     font-weight: 400;
 }
 
-.conteudo {
-  margin-bottom: 50px; /* ajuste o valor conforme necessário */
-}
 
 @media (max-width: 1200px) {
     .cabecalho{
