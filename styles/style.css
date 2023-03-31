@@ -116,9 +116,5 @@ body{
     }
     .apresentacao__conteudo{
         width: auto;
-        
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     }
 }
