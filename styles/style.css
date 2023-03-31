@@ -68,7 +68,7 @@ body{
 }
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-primaria);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
 }
 .apresentacao__links__navegacao{
@@ -84,22 +84,15 @@ body{
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria);
-    font-family: var(--fonte-secundaria); 
-    margin-bottom: 80px; /* adicione um valor de margem inferior para evitar que o rodapé cubra os links */
+    font-family: var(--fonte-secundaria);
 }
-
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover);
 }
-
 .apresentacao__imagem{
     width: 30%;
 }
-
 .rodape{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     padding: 24px;
@@ -108,7 +101,6 @@ body{
     font-size: 1.5rem;
     font-weight: 400;
 }
-
 
 @media (max-width: 1200px) {
     .cabecalho{
